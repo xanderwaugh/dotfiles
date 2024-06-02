@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Start/stop indexing on all volumes.
+alias spotlight_off='sudo mdutil -a -i off'
+alias spotlight_on='sudo mdutil -a -i on'
+
+# Alias Config
+# alias ll="ls -la"
+alias myip="curl https://ipinfo.io/ip"
+
+alias flush='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
+
+# LSD
+alias ls="lsd"
+alias l='lsd -lh -g'
+alias ll="lsd -lh"
+alias la='lsd -a'
+alias lla='lsd -la'
+alias lt='lsd --tree'
+
+# Code
+# alias c='code .'
+alias c='~/Scripts/code-shortcut.sh'
+
+alias cls='clear'
